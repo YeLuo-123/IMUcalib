@@ -28,7 +28,7 @@ pip3 install numpy scipy matplotlib pyyaml
 ```
 imu_calibration/
 ├── imu_calibration
-│   └── imu_calibrator_4wd.py   # 主程序
+│   └── imu_rpy.py   # 主程序
 ├── launch
 │   └── imu_calibration_launch.py  # (可选) launch文件
 ├── config
@@ -46,7 +46,7 @@ imu_calibration/
 ### 2. 运行标定节点
 
 ```bash
-python3 imu_calibrator_4wd.py
+python3 imu_rpy.py
 ```
 
 ### 3. 交互式控制
